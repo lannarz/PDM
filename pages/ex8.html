@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Digite seu nome para ser invertido:</h2>
+  <input type="text" id="nome">
+  <button onclick="inverter()">Enviar</button>
+  <p id="resultado"></p>
+
+  <script>
+    function inverter() {
+      let nome = document.getElementById("nome").value;
+      let invertido = nome.split("").reverse().join("");
+      document.getElementById("resultado").innerText = invertido;
+    }
+  </script>
+
+    <a href="index.html">Voltar</a>
+</body>
+</html>

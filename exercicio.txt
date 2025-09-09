@@ -1,0 +1,21 @@
+1) Escreva um programa que mostre na tela o nome da disciplina.
+2) Desenvolva um programa que receba a leitura de dois números ponto
+flutuante e informe a soma dos dois.
+3) Crie um código que seja capaz de ler 4 notas de um aluno e realizar a média
+aritmética delas informando o status do aluno. (Obs.: Aprovado se média maior
+que sete, caso contrário reprovado)
+5) Codifique um programa que dado um numeral inteiro ele informe a tabuada
+do mesmo de zero a dez.
+
+6) Escreva um código que seja capaz de ler 3 valores positivos e informe o maior
+valor dentre eles após o usuário entrar com o valor -1.
+7) Crie um algoritmo que receba um vetor de 10 posições com os valores 1, 2, 3,
+4, 5, 6, 7, 8, 9 e 10 e imprima os valores ímpares.
+8) Crie um programa que leia seu nome e o escreva de trás para frente.
+9) Desenvolva um programa use uma estrutura simbolizando um
+funcionário(nome, idade, sexo, salário). Seu programa deve aceitar a leitura de
+no mínimo 5 funcionários. No final deve imprimir todos os funcionários que
+ganham mais do que um salário mínimo.
+10) Crie um programa que utilize os conceitos de funções para simular as quatro
+operações básicas da matemática(adição, subtração, multiplicação e divisão) cada
+função deve retornar o resultado da operação.

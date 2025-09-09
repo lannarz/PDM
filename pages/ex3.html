@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cálculo da Média</h1>
+
+    <p>Nota 1: <input type="number" id="1" ></p>
+    <p>Nota 2: <input type="number" id="2" ></p>
+    <p>Nota 3: <input type="number" id="3" ></p>
+    <p>Nota 4: <input type="number" id="4" ></p>
+
+    <button onclick="calcularMedia()">Calcular</button>
+    <h1 id="resultado"></h1>
+
+    <script>
+        function calcularMedia() {
+        let n1 = parseFloat(document.getElementById("1").value);
+        let n2 = parseFloat(document.getElementById("2").value);
+        let n3 = parseFloat(document.getElementById("3").value);
+        let n4 = parseFloat(document.getElementById("4").value);
+
+        let media = (n1 + n2 + n3 + n4) / 4;
+
+        if (media > 7) {
+            document.getElementById("resultado").textContent = 
+            "Média: " + media.toFixed(2) + " Aluno aprovado";
+        }else {
+            document.getElementById("resultado").textContent = 
+            "Média: " + media.toFixed(2) + " Aluno Reprovado";
+        }
+        }
+    </script>
+    
+
+    <a href="index.html">Voltar</a>
+</body>
+</html>
